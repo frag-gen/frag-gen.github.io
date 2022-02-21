@@ -108,8 +108,7 @@ function PickRandomWord(frm) {
 // Generate a random number between 1 and NumberOfWords
 var rnd = Math.ceil(Math.random() * NumberOfWords)
 
+
 // Display the word inside the text box
-let text = "Click Here To continue to account";
-let result = text.link(words[rnd])
-frm.WordBox.value = result
+frm.WordBox.value = words[rnd]
 }
